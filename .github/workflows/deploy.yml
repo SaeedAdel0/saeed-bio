@@ -24,9 +24,8 @@ jobs:
 
       - name: Install dependencies
         # This tells GitHub to install dependencies inside the 'web' folder
-        run: |
-          npm install
-          cd web && npm install
+        working-directory: web
+        run: npm install
 
       - name: Build
         # This tells GitHub to run the build inside the 'web' folder

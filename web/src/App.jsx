@@ -65,6 +65,14 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* Hidden preloader for background images to prevent flickering on first rotation */}
+      <div className="hidden" aria-hidden="true">
+        {backgroundIds.map((id) => (
+          <img key={id} src={backgroundImages[id]} alt="" />
+        ))}
+      </div>
+
       <Toaster />
     </>
   );
