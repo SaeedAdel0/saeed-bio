@@ -113,11 +113,12 @@ const ActionButtons = () => {
               {/* Image Container */}
               <div className="w-full h-full overflow-auto flex items-start justify-center p-4 sm:p-12 scrollbar-hide">
                 <motion.img
-                  src="cv.jpg"
+                  src="./cv.jpg"
                   alt="My Resume"
                   animate={{ scale }}
                   transition={{ type: "spring", stiffness: 300, damping: 30 }}
                   className="max-w-full h-auto shadow-2xl rounded-sm origin-top"
+                  onError={(e) => { e.target.src = 'https://via.placeholder.com/800x1100?text=Resume+Not+Found'; }}
                 />
               </div>
             </motion.div>

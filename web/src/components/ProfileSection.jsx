@@ -13,7 +13,12 @@ const ProfileSection = () => {
         whileHover={{ scale: 1.05 }}
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
-        <img className="w-32 h-32 rounded-full border-4 border-white shadow-2xl object-cover object-top" alt="Profile picture of Saeed Adel Alkatheri" src="profile.jpg" />
+        <img 
+          className="w-32 h-32 rounded-full border-4 border-white shadow-2xl object-cover object-top" 
+          alt="Profile picture of Saeed Adel Alkatheri" 
+          src="./profile.jpg"
+          onError={(e) => { e.target.src = 'https://via.placeholder.com/150?text=Profile'; }}
+        />
       </motion.div>
       
       <div className="space-y-2">
