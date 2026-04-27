@@ -43,8 +43,8 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Saeed Adel Alkatheri | Portfolio</title>
-        <meta name="description" content="Connect with Saeed Adel Alkatheri. Professional portfolio and social links." />
+        <title>Saeed Adel | خدمات إلكترونية</title>
+        <meta name="description" content="Connect with Saeed Adel. Professional electronic services and social links." />
       </Helmet>
       <div 
         className={`min-h-screen ${backgrounds[background]} transition-all duration-500`}

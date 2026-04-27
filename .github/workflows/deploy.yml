@@ -29,8 +29,8 @@ jobs:
 
       - name: Build
         # This tells GitHub to run the build inside the 'web' folder
-        run: |
-          cd web && npm run build
+        working-directory: web
+        run: npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
