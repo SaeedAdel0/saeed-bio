@@ -4,12 +4,9 @@ import { Palette, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const images = [
-  { id: 'image1', name: 'Background 1', url: 'https://horizons-cdn.hostinger.com/75b03de3-a659-4aa0-a5be-e65d0ca0ea9e/401e2759188f67358cccaf35d7a1d8dc.jpg' },
-  { id: 'image2', name: 'Background 2', url: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400&q=80' },
-  { id: 'image3', name: 'Background 3', url: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400&q=80' },
-  { id: 'image5', name: 'Background 4', url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80' },
-  { id: 'image6', name: 'Background 5', url: 'https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&w=400' },
-  { id: 'image7', name: 'Background 6', url: 'https://images.unsplash.com/photo-1668896379676-c349528c9023?q=80&w=400' },
+  { id: 'image1', name: 'Background 1', url: 'https://plus.unsplash.com/premium_photo-1661878265739-da90bc1af051?q=80&w=400' },
+  { id: 'image2', name: 'Background 2', url: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=400' },
+  { id: 'image3', name: 'Background 3', url: 'https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=400' },
 ];
 
 const BackgroundSettings = ({ currentBackground, onBackgroundChange }) => {

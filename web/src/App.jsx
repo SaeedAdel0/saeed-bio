@@ -10,18 +10,12 @@ const backgrounds = {
   image1: 'bg-cover bg-center',
   image2: 'bg-cover bg-center',
   image3: 'bg-cover bg-center',
-  image5: 'bg-cover bg-center',
-  image6: 'bg-cover bg-center',
-  image7: 'bg-cover bg-center',
 };
 
 const backgroundImages = {
-  image1: 'https://horizons-cdn.hostinger.com/75b03de3-a659-4aa0-a5be-e65d0ca0ea9e/401e2759188f67358cccaf35d7a1d8dc.jpg',
-  image2: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200&q=80',
-  image3: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=1200&q=80',
-  image5: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
-  image6: 'https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&w=1170',
-  image7: 'https://images.unsplash.com/photo-1668896379676-c349528c9023?q=80&w=735',
+  image1: 'https://plus.unsplash.com/premium_photo-1661878265739-da90bc1af051?q=80&w=1086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  image2: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  image3: 'https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 };
 
 const backgroundIds = Object.keys(backgrounds);
@@ -49,8 +43,8 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Gehad Dahman | Software Engineering</title>
-        <meta name="description" content="Connect with Gehad Dahman. Software Engineering portfolio and social links." />
+        <title>Saeed Adel Alkatheri | Portfolio</title>
+        <meta name="description" content="Connect with Saeed Adel Alkatheri. Professional portfolio and social links." />
       </Helmet>
       <div 
         className={`min-h-screen ${backgrounds[background]} transition-all duration-500`}
