@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn, ZoomOut } from 'lucide-react';
 
 const buttons = [
-  { label: 'My Company', url: 'https://sabatc-new.vercel.app/' },
+  { label: 'My Company', url: 'https://www.sabatc.com/' },
   { label: 'LinkedIn Profile', url: 'https://www.linkedin.com/in/saeed00/' },
   { label: 'My Resume', isModal: true },
   { label: 'Schedule meeting with me', url: 'https://cal.com/saeed-adel-saeed-alkatheri-movfbg' },
